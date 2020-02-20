@@ -3,17 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.8.4",
+    "babel-loader": "^8.0.6",
     "jquery": "^3.4.1",
+    "latest": "^0.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
+    "react-scripts": "^3.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "aws-deploy":"aws s3 sync build/ s3://sunkakr-portfolio --acl public-read"
+    "aws-deploy": "aws s3 sync build/ s3://sunkakr-portfolio --acl public-read"
   },
   "browserslist": {
     "production": [
