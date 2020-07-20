@@ -38,6 +38,7 @@ header {
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   
 }
 
 /* vertically center banner section */
@@ -179,7 +180,12 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { 
+   color: #11ABB0; 
+   background-color: white; 
+   width: fit-content; 
+   padding: 5;
+}
 
 
 /* ------------------------------------------------------------------ */
@@ -977,7 +983,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #3d5a80;
 }
 
 footer .social-links li:first-child { margin-left: 0; }

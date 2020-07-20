@@ -68,7 +68,8 @@
     "skills":[
       {
         "name":"Git",
-        "level":"60%"
+        "level":"60%",
+        "description": ""
       },
       {
         "name":"Illustrator",
