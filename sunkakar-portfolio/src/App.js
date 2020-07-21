@@ -10,6 +10,8 @@ import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 
+import Fade from 'react-reveal/Fade';
+
 class App extends Component {
 
   constructor(props){

@@ -1,18 +1,12 @@
 import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
 
 class About extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
       var profilepic= "images/SundeepKakar.jpg";
       var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
     }
 
@@ -23,6 +17,7 @@ class About extends Component {
             <img className="profile-pic"  src={profilepic} alt="Sundeep Kakar Profile Pic" />
          </div>
          <div className="nine columns main-col">
+         <Fade bottom delay={500}>
             <h2>About Me</h2>
 
             <p>{bio}</p>
@@ -34,7 +29,9 @@ class About extends Component {
 						   <span>Indianapolis<br />
 						         IN, 46202
                    </span><br />
+                   <span>📧 sundeepkakar@gmail.com</span><br />
                      <span>📧 skakar@iu.edu</span>
+
 					   </p>
                </div>
                <div className="columns download">
@@ -43,6 +40,7 @@ class About extends Component {
                   </p>
                </div>
             </div>
+         </Fade>
          </div>
       </div>
 

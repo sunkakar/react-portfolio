@@ -34,7 +34,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text" data-reveal-delay="800">
 
-         <Fade bottom>
+         <Fade bottom delay={500}>
             <h1 className="responsive-headline">Hello! <br/>I'm Sunny.</h1>
             <h3 style={{
                color: 'white',
@@ -57,9 +57,11 @@ class Header extends Component {
          </div>
       </div>
 
+      <Fade bottom delay={800}>
       <p className="scrolldown">
          <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
       </p>
+      </Fade>
 
    </header>
     );

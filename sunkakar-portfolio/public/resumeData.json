@@ -4,7 +4,7 @@
     "occupation":"Software Developer",
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I am a recent graduate with a Bachelor's degree focused in Computer Science and minor in Math from Purdue School of Science and a second minor in Business from Kelley School of Business at IUPUI. I specialize in FullStack development involving ReactJS+Firebase/MongoDB and Laravel+PHP stacks. I am passionate about FrontEnd design and building Web Applications (and Native applications😉). Check out my Work! ",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "skakar@iu.edu",
     "phone": "555-555-5555",
@@ -30,7 +30,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"My skills have a primary focus in Web Dev in Python, NodeJS, ReactJS and Native Development in React-Native",
     "education":[
       {
         "school":"Purdue School of Science, Indianapolis",
@@ -67,67 +67,63 @@
     ],
     "skills":[
       {
-        "name":"Git",
+        "name":"Languages",
         "level":"60%",
-        "description": ""
+        "description": "JavaScript (NodeJS), Python, C/C++, PHP, Java, HTML5, CSS"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"Frameworks",
+        "level":"55%",
+        "description": "ReactJS, React-Native, Laravel(PHP), Django, VueJS, Flask"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"Libraries",
+        "level":"50%",
+        "description": "MaterialUI, Redux, ExpressJS, NumPy, SciPy"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name":"Technologies",
+        "level":"80%",
+        "description": "VIM, WordPress, REST API, BootStrap"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"Database",
+        "level":"80%",
+        "description": "MySQL, MSSQL, Firebase, MongoDB"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Stylus",
+        "category":"A Start-Up Company in the Development that aims to make the Online Shopping experience better. The mobile-first application is written from scratch in React-Native",
         "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://thestylusapp.com/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"PlaceHoldr",
+        "category":"Roommate LookUp Made Easy! The purpose of this application is to build an online roommate matching system that allows for studentsliving in off-campus housing to find other roommates with similar preferences.",
         "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://github.com/sunkakar"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Django Steganography App",
+        "category":"Django Web App to learn about Steganography through implementation.  It covers most types of steganography (text, image, and audio).",
         "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"https://github.com/sunkakar/django-steganography-app"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Driving Survival Game",
+        "category":"HTML5 Game Written in Phaser JS to bring awareness to the dangers of 'Texting and Driving' through a different approach",
+        "image":"original-thai-food.jpg",
+        "url":"https://github.com/sunkakar/game-driver-survival"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Data Science Blog",
+        "category":"Data Science Blog based on me and my family's texting patterns. The data was aggregated using Whatsapp Message History.",
+        "image":"original-thai-food.jpg",
+        "url":"https://sunkakar.github.io/markdown-blog-template/"
       }
     ]
   },
