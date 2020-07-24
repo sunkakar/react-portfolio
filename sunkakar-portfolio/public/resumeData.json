@@ -124,6 +124,12 @@
         "category":"Data Science Blog based on me and my family's texting patterns. The data was aggregated using Whatsapp Message History.",
         "image":"original-thai-food.jpg",
         "url":"https://sunkakar.github.io/markdown-blog-template/"
+      },
+      {
+        "title":"IoT Theft Detection System",
+        "category":"Theft Detection System that utilizes computer-vision based motion detection on a Raspberry Pi over constant video feed from a remote camera module. The system operates over a CoAS server ideal for IoT implementations.",
+        "image":"original-thai-food.jpg",
+        "url":"https://github.com/sunkakar/iot-theft-detection-system"
       }
     ]
   },

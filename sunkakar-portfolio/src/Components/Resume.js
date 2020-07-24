@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
 
 class Resume extends Component {
   render() {
 
     if(this.props.data){
-      var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
@@ -25,6 +25,7 @@ class Resume extends Component {
           <div key={skills.name}>
             <h3>{skills.name}</h3>
             <p className="info">{skills.description}</p>
+            <br/>
           </div>
         )
 
@@ -34,7 +35,8 @@ class Resume extends Component {
     return (
       <section id="resume">
 
-      <div className="row education">
+      <Fade bottom cascade>
+      <div className="row education"> 
          <div className="three columns header-col">
             <h1><span>Education</span></h1>
          </div>
@@ -47,30 +49,33 @@ class Resume extends Component {
             </div>
          </div>
       </div>
+      </Fade>
 
 
       <div className="row work">
-
-         <div className="three columns header-col">
+      <Fade bottom cascade>
+        <div className="three columns header-col">
             <h1><span>Work</span></h1>
-         </div>
+        </div>
 
-         <div className="nine columns main-col">
+        <div className="nine columns main-col">
           {work}
         </div>
-    </div>
+      </Fade>
+      </div>
 
 
 
-      <div className="row work">
+      <div className="row skills">
+        <Fade bottom cascade>
+          <div className="three columns header-col">
+              <h1><span>Skills</span></h1>
+          </div>
 
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-				<div className="nine columns main-col">
-          {skills}
-        </div>
+          <div className="nine columns main-col">
+            {skills}
+          </div>
+        </Fade>
       </div>
    </section>
     );
