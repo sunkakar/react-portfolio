@@ -14,17 +14,17 @@
       "state":"Indiana",
       "zip": "46202"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://sunnykakar.com/",
+    "resumedownload":"https://sunnykakar.com/Resume.pdf",
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/s-kakar/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/sunkakar",
         "className":"fa fa-github"
       }
     ]
@@ -75,6 +75,11 @@
         "name":"Frameworks",
         "level":"55%",
         "description": "ReactJS, React-Native, Laravel(PHP), Django, VueJS, Flask"
+      },
+      {
+        "name":"Stack Experience",
+        "level":"50%",
+        "description": "MERN, LAMP"
       },
       {
         "name":"Libraries",
